@@ -100,7 +100,7 @@ header{
 /*index content*/
 
 .depart{
-	font-weight: normal;
+	font-weight: 500;
 	font-size: 48px;
 	background: rgba(84, 28, 139, 0.08);
 	padding-left: 15%;
