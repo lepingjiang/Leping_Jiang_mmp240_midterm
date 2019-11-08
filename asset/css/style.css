@@ -1,5 +1,4 @@
 *{
-	font-family: Roboto;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -125,6 +124,27 @@ header{
 
 /*housing grid*/
 
+#searchsmall{
+	background: #efe1ff;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+}
+
+#searchsmall div{
+	display: inline-block;
+	font-size: 20px;
+	padding: 5px 20px;
+}
+
+#searchsmall select{
+	height: 30px;
+	width: 120px;
+	font-size: 20px;
+}
+
 .g2 h3{
 	font-size: 22px;
 	color: #000;
@@ -150,29 +170,6 @@ header{
 	text-align: center;
 }
 
-#searchsmall{
-	background: #efe1ff;
-	padding: 10px;
-	margin-bottom: 20px;
-	width: 100%;
-	display:flex;
-	justify-content: center;
-}
-
-#searchsmall div{
-	display: inline-block;
-	font-size: 20px;
-	padding: 5px 20px;
-}
-
-#searchsmall select{
-	height: 30px;
-	width: 120px;
-	font-size: 20px;
-}
-
-
-
 .g2{
 	padding: 10px;
 	margin: 20px;
@@ -191,9 +188,10 @@ header{
 .indec div {
 	font-size: 20px;
 	padding: 5px 50px;
-	border: 2px solid #541c8b;
+	border: 2px solid #888;
 	margin: 0px 5px;
-	border-radius: 2px
+	border-radius: 2px;
+	color: #888;
 }
 
 /*detail page*/
@@ -236,11 +234,11 @@ header{
 	padding: 1px;
 	text-align: center;
 	border-radius: 2px;
-	border: 2px solid #541c8b;
+	border: 2px solid rgba(84, 28, 139, 0.3);
 }
 
 .btnamap a{
-	color: #541c8b;
+	color: rgba(84, 28, 139, 0.7);
 	padding:0 100px;
 }
 
@@ -260,7 +258,7 @@ header{
 }
 
 .filtercontrol *, .filtercontrol2 *{
-	margin: 5px;
+	margin: 7px;
 }
 
 .filterbtn{
