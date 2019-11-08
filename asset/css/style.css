@@ -123,6 +123,22 @@ header{
 
 /*housing grid*/
 
+.grid h2, .grid h3{
+	margin: 20px 0px;
+	color: #000;
+}
+
+.grid img{
+	border: 3px solid #bbb;
+	width: 370px
+}
+
+.grid{
+	display: inline-flex;
+	align-items: center;
+}
+
+
 #g1, .page{
 	text-align: center;
 }
@@ -148,20 +164,6 @@ header{
 	font-size: 20px;
 }
 
-.grid h2, .grid h3{
-	margin: 20px 0px;
-	color: #000;
-}
-
-.grid img{
-	border: 3px solid #bbb;
-	width: 400px
-}
-
-.grid{
-	display: inline-flex;
-	align-items: center;
-}
 
 
 .g2{
@@ -170,7 +172,7 @@ header{
 	border: 2px solid #bbb;
 	text-align: left;
 	max-width:1200px;
-	min-width: 400px;
+	min-width: 370px;
 	box-shadow: 0px 0px 5px #888;
 }
 
@@ -264,32 +266,6 @@ header{
 	border-radius: 2px;
 	border: 2px solid #541c8b;
 }
-
-/*#filtercontainer{
-	display: flex;
-	justify-content: center;
-}
-
-.filtercontrol{
-	width: 300px;
-}
-
-.filtercontrol2{
-	width: 500px;
-}
-
-.filtercontrol div *, .filtercontrol2 div *{
-	margin: 5px;
-}
-
-.btnfilter{
-	display: flex;
-	justify-content: center
-}*/
-
-
-
-
 
 
 
