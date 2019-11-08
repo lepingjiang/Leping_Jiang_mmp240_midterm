@@ -125,7 +125,12 @@ header{
 
 /*housing grid*/
 
-.grid h2, .grid h3{
+.g2 h3{
+	font-size: 22px;
+	color: #000;
+}
+
+.grid h2, .grid h4{
 	margin: 20px 0px;
 	color: #000;
 }
